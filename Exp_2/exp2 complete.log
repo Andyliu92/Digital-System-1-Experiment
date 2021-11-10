@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  5 NOV 2021 19:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  10 NOV 2021 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -837,13 +837,12 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./exp2 complete.toc)
+) (./exp2 complete.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `"exp2 complete.toc"'.
 
- [1
-
-]
 
 Package fontspec Info: Could not resolve font "STXingkai/BI" (it probably
 (fontspec)             doesn't exist).
@@ -969,75 +968,89 @@ File: assets//6set9/jb3.jpg Graphic file (type bmp)
 <assets//6set9/jb3.jpg>
 File: assets//6set9/jb4.jpg Graphic file (type bmp)
 <assets//6set9/jb4.jpg>
- [9]
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 1>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 1>
- [10]
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 1>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 1>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 1>
+ [9] [10]
+File: assets//watch/left half.png Graphic file (type bmp)
+<assets//watch/left half.png>
  [11]
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 2>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 2>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 2>
+File: assets//watch/spark logic circuit.jpg Graphic file (type bmp)
+<assets//watch/spark logic circuit.jpg>
+File: assets//watch/right half.png Graphic file (type bmp)
+<assets//watch/right half.png>
  [12]
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 3>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 3>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 3>
+File: assets//watch/whole circuit.png Graphic file (type bmp)
+<assets//watch/whole circuit.png>
  [13]
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 4>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 4>
-File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 4>
+File: assets//original pic/sign.png Graphic file (type bmp)
+<assets//original pic/sign.png>
  [14]
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 5>
+<use exp_data.pdf>
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 5>
+<use exp_data.pdf>
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 5>
+<use exp_data.pdf, page 1>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 1>
  [15]
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 6>
+<use exp_data.pdf, page 1>
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 6>
+<use exp_data.pdf, page 1>
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 6>
+<use exp_data.pdf, page 1>
  [16]
 File: exp_data.pdf Graphic file (type pdf)
-<use exp_data.pdf, page 7>
+<use exp_data.pdf, page 2>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 2>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 2>
+ [17]
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 3>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 3>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 3>
+ [18]
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 4>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 4>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 4>
+ [19]
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 5>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 5>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 5>
+ [20]
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 6>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 6>
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 6>
+ [21]
 File: exp_data.pdf Graphic file (type pdf)
 <use exp_data.pdf, page 7>
 File: exp_data.pdf Graphic file (type pdf)
 <use exp_data.pdf, page 7>
- [17] (./exp2 complete.aux)
+File: exp_data.pdf Graphic file (type pdf)
+<use exp_data.pdf, page 7>
+ [22] (./exp2 complete.aux)
 Package rerunfilecheck Info: File `"exp2 complete".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 22106 strings out of 477298
- 468741 string characters out of 5829873
- 808121 words of memory out of 5000000
- 41346 multiletter control sequences out of 15000+600000
+ 22220 strings out of 477298
+ 474858 string characters out of 5829873
+ 811235 words of memory out of 5000000
+ 41453 multiletter control sequences out of 15000+600000
  413216 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  97i,17n,100p,897b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp2 complete.pdf (17 pages).
+Output written on exp2 complete.pdf (22 pages).

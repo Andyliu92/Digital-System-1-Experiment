@@ -66,7 +66,7 @@
 
 \title{\textbf{实验2\ 计数器}} % Title
 
-\author{电子科学与工程学院 刘时宜 201180078} % Author name
+\author{电子科学与工程学院\ 刘时宜\ 201180078} % Author name
 
 \date{} % Date for the report
 
@@ -78,7 +78,8 @@
 
 \begin{center}
     \begin{tabular}{l r}
-    实验日期: & 2021年11月23日 \\ % Date the experiment was performed
+    实验日期: & 2021年11月3日 \\ % Date the experiment was performed
+     & 2021年11月10日 \\ % Date the experiment was performed
     指导老师: & 高健 % Instructor/supervisor
     \end{tabular}
     \par 点击目录、书签栏、以及行文中的图表标号的均可跳转至相应页面
@@ -332,13 +333,117 @@
     \item 利用置9法，实现了六进制计数器。
 \end{itemize}
 
+\subsection{秒表设计实现}
+利用计数器设计一个秒表，最小精度为\SI{0.1}{\second}。每\SI{0.1}{\second}，秒表跳一个数字，计10次，秒位加一，秒位计60次，分位加一，四位数码管总计时容量约10分钟。
+\par {\color{red}\textbf{本秒表设计除实验材料中给定的秒分频电路、动态显示模块外，均为自主设计完成，未使用任何其他已有的的设计资料！}}
 
+\subsubsection{秒表设计与功能实现}
+\paragraph{按秒表所需进制数搭建计数器}~
+\par 由设计要求，最低位为10进制计数器，第2、3位共同组成60进制计数器，最高位组成10进制计数器。计数器串联获得秒表所需的计数器。具体实现方式如下：
+\begin{enumerate}
+    \item 搭建最低位的10进制计数器，时钟信号CLK使用秒分频电路产生的\SI{0.1}{\second}周期信号。
+    \item 搭建第2位10进制计数器，时钟信号为最低位计数器的清零信号（\(\sim\)CLR）取反。取反的原因是由于采用的计数器模块触发方式为上升沿。
+    \item 搭建第3位6进制计数器，时钟信号为第2位计数器的清零信号（\(\sim\)CLR）取反。
+    \item 为确保第2、3位实现60进制计数器时需使第3位输出6时同时将第2为置零。则将第2位计数器置数端输入“0000”，将第3位的清零信号连接第2位置数端。
+    \item 搭建最高位10进制计数器，时钟信号为第3位计数器的清零信号（\(\sim\)CLR）取反。
+    \item 将各位计数器输出连接至动态显示模块相应端口，实现对数码管的显示控制。
+\end{enumerate}
 
+\paragraph{对于计数状态的控制}~
+\par 设计要求中，要求实现开始、暂停、继续、复位的功能，使用1个开关和1个按键，结合计数器控制端即可实现，具体解决方案入下：
+\begin{enumerate}
+    \item 利用计数器的使能端ENT为低电平时，计数暂停的性质，将各数位上计数器的ENT端均连接到开关SW0，则可以实现使用开关SW0达到开始、暂停、继续的功能。
+    \item 利用计数器的置零端，将各计数器原有置零端信号与按键信号取反后所得的信号取“与”运算即可实现在不影响原有功能下，加入按键清零的功能。
+\end{enumerate}
+
+\par 以上两部分的电路图如图\ref{watch left}所示。搭建完成的电路即可完成计时以及控制计时开始、暂停、继续和复位的功能。
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{watch/left half.png}
+    \end{center}
+    \caption{计数器电路模块}
+    \label{watch left}
+\end{figure}
+
+\paragraph{暂停时数字闪烁（附加功能）}~
+\par 希望能够扩展做到计时暂停时数字闪烁，具体分析其需求如下：
+\begin{enumerate}
+    \item 初始时，秒表稳定显示“0000”，不闪烁。
+    \item 正常计时过程中，稳定显示当前计时数字，不闪烁。
+    \item 当开始计时又暂停时，数字闪烁。
+\end{enumerate}
+
+\par 使用1s的时钟信号作为闪烁信号的闪烁来源，则可以画出功能表如下表所示：
+\begin{table}[h]
+    \begin{center}
+        \begin{tabular}{c c c|c}
+            秒表显示“0000” & 暂停 & 时钟信号 & 输出 \\
+            \hline
+            1 & x & x & 数字 \\
+            0 & 0 & x & 数字 \\
+            0 & 1 & 0 & 0 \\
+            0 & 1 & 1 & 数字 \\
+        \end{tabular}
+        \caption{实现闪烁功能的功能表}
+    \end{center}
+\end{table}
+
+\par 注意暂停时SW0为低电平，则可以使用如图\ref{spark logic circuit}所示的逻辑电路实现上表：
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{watch/spark logic circuit.jpg}
+    \end{center}
+    \caption{闪烁逻辑功能实现}
+    \label{spark logic circuit}
+\end{figure}
+
+\par 最后，将所得的闪烁控制信号与原信号的反取“与非”关系控制响应数码管即可实现闪烁控制的功能。之所以要取反和取与非的原因是所用数码管为共阳极数码管，低电平时点亮。这部分电路如图\ref{watch right}所示。
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{watch/right half.png}
+    \end{center}
+    \caption{闪烁逻辑功能模块}
+    \label{watch right}
+\end{figure}
+
+\par 到此即完成了秒表全部功能的实现，包括计时、开始、暂停、继续、清零、暂停时闪烁。完整电路图如图\ref{watch circuit}所示。
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{watch/whole circuit.png}
+    \end{center}
+    \caption{秒表全电路图}
+    \label{watch circuit}
+\end{figure}
+
+\subsubsection{实验验证}
+\par 将电路设计下载到Basys3开发板上，验证了设计的电路完全满足实验要求。验证视频为邮件附件中“秒表实验.mp4”。
+
+\subsubsection{小结}
+\begin{enumerate}
+    \item 利用计数器设计实现了秒表的计时功能。
+    \item 设计实现了秒表的计时状态控制功能。
+    \item 设计实现了秒表暂停时闪烁的功能。
+\end{enumerate}
 
 \section{实验总结}
-
+\begin{enumerate}
+    \item 了解了计数器的基本工作原理与输出波形
+    \item 掌握了利用已有计数器模块实现不同数值计数器的方法
+    \item 利用计数器设计实现了秒表
+\end{enumerate}
 
 \section*{原始数据}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{original pic/sign.png}
+    \end{center}
+\end{figure}
+
+
 \includepdf[pages=1-7]{exp_data.pdf}
 
 \end{document}
