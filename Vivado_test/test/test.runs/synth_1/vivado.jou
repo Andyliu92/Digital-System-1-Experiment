@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Nov 24 11:05:27 2021
+# Process ID: 15732
+# Current directory: D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Vivado_test/test/test.runs/synth_1
+# Command line: vivado.exe -log test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test.tcl
+# Log file: D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Vivado_test/test/test.runs/synth_1/test.vds
+# Journal file: D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Vivado_test/test/test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test.tcl -notrace
