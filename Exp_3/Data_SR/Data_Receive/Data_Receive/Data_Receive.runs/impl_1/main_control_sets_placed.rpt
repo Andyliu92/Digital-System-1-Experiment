@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Nov 26 15:14:13 2021
+| Date         : Fri Nov 26 16:49:25 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
 | Design       : main
@@ -73,14 +73,14 @@ Table of Contents
 +----------------+---------------+------------------+------------------+----------------+
 |  Clock Signal  | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +----------------+---------------+------------------+------------------+----------------+
-|  f1/div1/Q[3]  |               | f1/div2/_n_0     |                1 |              4 |
+|  CLK_IBUF_BUFG |               | f1/clear         |                1 |              4 |
 |  f1/div2/Q[3]  |               | f1/div3/_n_0     |                1 |              4 |
-|  f1/div4/Q[3]  |               | f1/div5/_n_0     |                1 |              4 |
+|  f1/div1/Q[3]  |               | f1/div2/_n_0     |                1 |              4 |
 |  f1/div3/Q[3]  |               | f1/div4/_n_0     |                1 |              4 |
-|  f1/div5/Q[3]  |               | f1/div6/_n_0     |                1 |              4 |
+|  f1/div4/Q[3]  |               | f1/div5/_n_0     |                1 |              4 |
 |  f1/div7/Q[3]  |               | f1/div8/_n_0     |                1 |              4 |
 |  f1/div6/Q[3]  |               | f1/div7/_n_0     |                1 |              4 |
-|  CLK_IBUF_BUFG |               | f1/clear         |                1 |              4 |
+|  f1/div5/Q[3]  |               | f1/div6/_n_0     |                1 |              4 |
 | ~f1/div8/CLK   | R1/Q[4]       |                  |                3 |              8 |
 |  f1/div8/CLK   |               | R1/SR1clr        |                4 |              9 |
 +----------------+---------------+------------------+------------------+----------------+

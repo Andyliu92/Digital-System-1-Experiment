@@ -60,7 +60,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
@@ -68,7 +67,6 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 2
   set_param simulator.modelsimInstallPath W:/Program%20Files/modelsim/win64
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a35tcpg236-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0

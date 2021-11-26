@@ -53,7 +53,7 @@ module main(
     wire SR1clr;
     wire [nbit-1:0]SR1out;
     wire dataIn;
-    assign dataIn = ~JA0 || BTNU;
+    assign dataIn = JA0 || BTNU;
     SR_NS_C #(.n(nbit))R1(dataIn, clkUsed, SR1clr ,SR1out);
     
     assign SR1clr = SR1out[4] && (~clkUsed);
@@ -62,10 +62,7 @@ module main(
 
     //storing data
     wire [3:0]DL1out;
-    wire delayD1, delayD2;
-    assign delayD1 = ~SR1out[4];
-    assign delayD2 = ~delayD1;
-    DLatchN #(.n(4))DL1(SR1out[3:0], delayD2, clkUsed, DL1out);
+    DLatchN #(.n(4))DL1(SR1out[3:0], SR1out[4], clkUsed, DL1out);
 
     //showing data
     

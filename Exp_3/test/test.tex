@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{vgreen}{RGB}{104,180,104}
+\definecolor{vblue}{RGB}{49,49,255}
+\definecolor{vorange}{RGB}{255,143,102}
+
+\lstdefinestyle{verilog-style}
+{
+    language=Verilog,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{vblue},
+    identifierstyle=\color{black},
+    commentstyle=\color{vgreen},
+    numbers=left,
+    numberstyle=\tiny\color{black},
+    numbersep=10pt,
+    tabsize=8,
+    moredelim=*[s][\colorIndex]{[}{]},
+    literate=*{:}{:}1
+}
+
+\makeatletter
+\newcommand*\@lbracket{[}
+\newcommand*\@rbracket{]}
+\newcommand*\@colon{:}
+\newcommand*\colorIndex{%
+    \edef\@temp{\the\lst@token}%
+    \ifx\@temp\@lbracket \color{black}%
+    \else\ifx\@temp\@rbracket \color{black}%
+    \else\ifx\@temp\@colon \color{black}%
+    \else \color{vorange}%
+    \fi\fi\fi
+}
+\makeatother
+
+\usepackage{trace}
+\begin{document}
+
+\begin{lstlisting}[style={verilog-style}]
+module Mixing {
+    ///////// ADC /////////
+    inout              ADC_CS_N,
+    output             ADC_DIN,
+    input              ADC_DOUT,
+    output             ADC_SCLK,
+
+    ///////// ADC /////////
+    input              AUD_ADCDAT,
+    inout              AUD_ADCLRCK,
+    inout              AUD_BCLK,
+    output             AUD_DACDAT,
+    inout              AUD_DACLRCK,
+    output             AUD_XCK,
+
+    ///////// clocks /////////
+    input              clock2_50,
+    input              clock3_50,
+    input              clock4_50,
+    input              clock_50,
+
+    ///////// HEX /////////
+    output      [6:0]  HEX0,
+    output      [6:0]  HEX1,
+    output      [6:0]  HEX2,
+    output      [6:0]  HEX3,
+    output      [6:0]  HEX4,
+    output      [6:0]  HEX5,
+ 
+    ///////// FOO /////////
+    output      [2]    FOO,
+}
+\end{lstlisting}
+\end{document}
