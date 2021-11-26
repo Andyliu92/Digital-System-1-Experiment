@@ -67,6 +67,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 2
   set_param simulator.modelsimInstallPath W:/Program%20Files/modelsim/win64
+  set_param xicom.use_bs_reader 1
   open_checkpoint main_routed.dcp
   set_property webtalk.parent_dir {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Send/Sender/Sender.cache/wt} [current_project]
   catch { write_mem_info -force main.mmi }

@@ -24,7 +24,9 @@ module main(
     input BTND, BTNL, BTNC,
     input CLK,
     input SW15,
-    output LED0, LED1, LED2, LED3, LED15,
+    output LED0, LED1, LED2, LED3, LED15,  
+    output LED14, //clkUsed
+    output LED4, LED5, LED6, LED7,LED8, LED9, LED10, LED11, //for testing
     output JB0,JB1,
     output CA, CB, CC, CD, CE, CF, CG, AN3, AN2, AN1, AN0
     );
@@ -50,11 +52,15 @@ module main(
     assign clkOpt = {clkAll[5], clkAll[8]};
     mux2to1 M1(SW15, clkOpt,clkUsed);
     assign JB1 = clkUsed;
+    assign LED14 = clkUsed;
 
     //transmitting data
     wire sendOut;
     SR_8P SR1({1'b0, 1'b1, data, 1'b0, 1'b0}, clkUsed, BTND, sendOut);
     assign JB0 = sendOut;
     assign LED15 = sendOut;
+
+    // for testing
+    SR_NS_C SR2(sendOut, clkUsed, 1'b0, {LED11, LED10, LED9, LED8,LED7, LED6, LED5, LED4});
 
 endmodule

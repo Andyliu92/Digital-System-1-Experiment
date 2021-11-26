@@ -19,6 +19,7 @@ proc create_report { reportName command } {
 }
 set_param chipscope.maxJobs 2
 set_param simulator.modelsimInstallPath W:/Program%20Files/modelsim/win64
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -39,6 +40,7 @@ read_verilog -library xil_defaultlib {
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Send/Sender/Sender.srcs/sources_1/new/Shift Registers.v}
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Send/Sender/Sender.srcs/sources_1/new/Comb_circuit.v}
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Send/Sender/Sender.srcs/sources_1/new/mux2to1.v}
+  {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Send/Sender/Sender.srcs/sources_1/new/SR_NS_C.v}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

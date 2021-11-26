@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Nov 25 11:24:43 2021
+| Date         : Fri Nov 26 08:17:44 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_drc -file main_drc_opted.rpt -pb main_drc_opted.pb -rpx main_drc_opted.rpx
 | Design       : main
@@ -20,7 +20,7 @@ Table of Contents
 1. REPORT SUMMARY
 -----------------
             Netlist: netlist
-          Floorplan: checkpoint_main
+          Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
@@ -55,8 +55,8 @@ Related violations: <none>
 
 PLHOLDVIO-2#2 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT f1/div5/JB1_OBUF_inst_i_1 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
-SR1/Q_reg, SR1/Q_reg_lopt_replica, SR1/ShiftData_reg[2], SR1/ShiftData_reg[3], SR1/ShiftData_reg[4], SR1/ShiftData_reg[5], SR1/ShiftData_reg[6], SR1/ShiftData_reg[7]
+A LUT f1/div5/LED14_OBUF_inst_i_1 is driving clock pin of 24 cells. This could lead to large hold time violations. Involved cells are:
+SR1/Q_reg, SR1/Q_reg_lopt_replica, SR1/Q_reg_lopt_replica_2, SR1/ShiftData_reg[2], SR1/ShiftData_reg[3], SR1/ShiftData_reg[4], SR1/ShiftData_reg[5], SR1/ShiftData_reg[6], SR1/ShiftData_reg[7], SR2/Q_reg[0], SR2/Q_reg[0]_lopt_replica, SR2/Q_reg[1], SR2/Q_reg[1]_lopt_replica, SR2/Q_reg[2], SR2/Q_reg[2]_lopt_replica (the first 15 of 24 listed)
 Related violations: <none>
 
 
