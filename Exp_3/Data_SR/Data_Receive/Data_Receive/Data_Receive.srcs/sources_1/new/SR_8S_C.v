@@ -26,10 +26,12 @@ module SR_NS_C(Data, clk, clr, Q);
     input clk, clr;
     output reg [n-1:0] Q;
 
-    always @(posedge clk) begin
-        if(clr)
-            Q = 0;
+    always @(posedge clk or posedge clr) begin
+        if (clr) begin
+            Q <= 0;
+        end
         else
-            Q = {Q[n-2:0], Data};
+            Q <= {Q[n-2:0], Data};
     end
+
 endmodule

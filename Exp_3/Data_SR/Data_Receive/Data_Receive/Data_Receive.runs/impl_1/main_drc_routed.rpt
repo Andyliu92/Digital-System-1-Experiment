@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Nov 25 13:06:44 2021
+| Date         : Fri Nov 26 15:14:39 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_drc -file main_drc_routed.rpt -pb main_drc_routed.pb -rpx main_drc_routed.rpx
 | Design       : main
@@ -20,7 +20,7 @@ Table of Contents
 1. REPORT SUMMARY
 -----------------
             Netlist: netlist
-          Floorplan: checkpoint_main
+          Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
@@ -50,13 +50,13 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net R1/clkUsed is a gated clock net sourced by a combinational pin R1/Q[4]_i_2/O, cell R1/Q[4]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net f1/div8/CLK is a gated clock net sourced by a combinational pin f1/div8/LED15_OBUF_inst_i_1/O, cell f1/div8/LED15_OBUF_inst_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT R1/Q[4]_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. Involved cells are:
-R1/Q_reg[0], R1/Q_reg[1], R1/Q_reg[1]_lopt_replica, R1/Q_reg[2], R1/Q_reg[3], R1/Q_reg[4]
+A LUT f1/div8/LED15_OBUF_inst_i_1 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+DL1/Q_reg[0], DL1/Q_reg[0]_lopt_replica, DL1/Q_reg[1], DL1/Q_reg[1]_lopt_replica, DL1/Q_reg[2], DL1/Q_reg[2]_lopt_replica, DL1/Q_reg[3], DL1/Q_reg[3]_lopt_replica, R1/Q_reg[0], R1/Q_reg[0]_lopt_replica, R1/Q_reg[0]_lopt_replica_2, R1/Q_reg[1], R1/Q_reg[1]_lopt_replica, R1/Q_reg[1]_lopt_replica_2, R1/Q_reg[2] (the first 15 of 17 listed)
 Related violations: <none>
 
 

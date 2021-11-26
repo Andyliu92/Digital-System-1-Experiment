@@ -17,7 +17,10 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param chipscope.maxJobs 2
 set_param simulator.modelsimInstallPath W:/Program%20Files/modelsim/win64
+set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -32,7 +35,10 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/DLatch4.v}
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/SR_8S_C.v}
+  {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/freq_div.v}
+  {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/mux2to1.v}
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/static show.v}
+  {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/ten.v}
   {D:/Study/01 NJU Courses/18001300 Digital_System_Exp_1/Exp_3/Data_SR/Data_Receive/Data_Receive/Data_Receive.srcs/sources_1/new/main.v}
 }
 # Mark all dcp files as not used in implementation to prevent them from being

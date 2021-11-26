@@ -20,13 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module DLatchN(Data, set, Q);
+module DLatchN(Data, set, clk, Q);
     parameter n = 4;
     input [n-1:0]Data;
-    input set;
+    input set,clk;
     output reg [n-1:0]Q;
 
-    always @(set or Data) begin
+    always @(negedge clk) begin
         if (set) begin
             Q = Data;
         end

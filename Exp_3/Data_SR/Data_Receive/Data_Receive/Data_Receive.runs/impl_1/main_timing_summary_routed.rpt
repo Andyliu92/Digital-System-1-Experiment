@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Nov 25 13:06:45 2021
+| Date         : Fri Nov 26 15:14:40 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file main_timing_summary_routed.rpt -pb main_timing_summary_routed.pb -rpx main_timing_summary_routed.rpx -warn_on_violation
 | Design       : main
@@ -54,13 +54,29 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 6 register/latch pins with no clock driven by root clock pin: BTNL (HIGH)
+ There are 17 register/latch pins with no clock driven by root clock pin: BTNL (HIGH)
 
- There are 6 register/latch pins with no clock driven by root clock pin: CLK (HIGH)
+ There are 21 register/latch pins with no clock driven by root clock pin: CLK (HIGH)
 
- There are 6 register/latch pins with no clock driven by root clock pin: JA1 (HIGH)
+ There are 17 register/latch pins with no clock driven by root clock pin: JA1 (HIGH)
 
- There are 4 register/latch pins with no clock driven by root clock pin: R1/Q_reg[4]/Q (HIGH)
+ There are 17 register/latch pins with no clock driven by root clock pin: SW15 (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div1/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div2/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div3/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div4/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div5/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div6/Q_reg[3]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: f1/div7/Q_reg[3]/Q (HIGH)
+
+ There are 17 register/latch pins with no clock driven by root clock pin: f1/div8/Q_reg[3]/Q (HIGH)
 
 
 2. checking constant_clock
@@ -75,21 +91,21 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 16 pins that are not constrained for maximum delay. (HIGH)
+ There are 98 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
 5. checking no_input_delay
 --------------------------
- There are 4 input ports with no input delay specified. (HIGH)
+ There are 6 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 
 
 6. checking no_output_delay
 ---------------------------
- There are 11 ports with no output delay specified. (HIGH)
+ There are 21 ports with no output delay specified. (HIGH)
 
  There are 0 ports with no output delay but user has a false path constraint
 
