@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}实验目的}{1}{section.1}%
+\contentsline {section}{\numberline {2}实验仪器与主要器材}{2}{section.2}%
+\contentsline {section}{\numberline {3}实验原理}{2}{section.3}%
+\contentsline {section}{\numberline {4}实验过程}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}移位寄存器单源周期触发测试}{2}{subsection.4.1}%
+\contentsline {section}{\numberline {5}实验总结}{3}{section.5}%
