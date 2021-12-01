@@ -21,20 +21,13 @@
 
 
 module test(
-    input SW0,SW1,SW2,SW3,SW4,SW5,SW6,
+    input SW15,SW14,SW13,SW12,SW11,SW10,SW9,SW8,SW7,SW6,SW5,SW4,SW3,SW2,SW1,SW0,
+    input CLK,
     output CA, CB, CC, CD, CE, CF, CG,
-    output AN0, AN1, AN2, AN3
+    output AN3, AN2, AN1, AN0
     );
-    assign AN0 = 0;
-    assign AN1 = 0;
-    assign AN2 = 0;
-    assign AN3 = 0;
-
-    assign CA = SW0;
-    assign CB = SW1;
-    assign CC = SW2;
-    assign CD = SW3;
-    assign CE = SW4;
-    assign CF = SW5;
-    assign CG = SW6;
+    
+    wire    [10:0]  clkAll;
+    freq_div clkGen(CLK, clkAll);
+    dyn_show DS({SW15,SW14,SW13,SW12,SW11,SW10,SW9,SW8,SW7,SW6,SW5,SW4,SW3,SW2,SW1,SW0}, clkAll[4], {CA, CB, CC, CD, CE, CF, CG}, {AN3, AN2, AN1, AN0});
 endmodule

@@ -26,17 +26,17 @@ module BCD_dec(
 
     always @(D) begin
         case(D)
-            0: Q = {1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b0};
-            1: Q = {1'b0, 1'b1, 1'b1, 1'b0, 1'b0, 1'b0, 1'b0};
-            2: Q = {1'b1, 1'b1, 1'b0, 1'b1, 1'b1, 1'b0, 1'b1};
-            3: Q = {1'b1, 1'b1, 1'b1, 1'b1, 1'b0, 1'b0, 1'b1};
-            4: Q = {1'b0, 1'b1, 1'b1, 1'b0, 1'b0, 1'b1, 1'b1};
-            5: Q = {1'b1, 1'b0, 1'b1, 1'b1, 1'b0, 1'b1, 1'b1};
-            6: Q = {1'b1, 1'b0, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1};
-            7: Q = {1'b1, 1'b1, 1'b1, 1'b0, 1'b0, 1'b0, 1'b0};
-            8: Q = {1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1, 1'b1};
-            9: Q = {1'b1, 1'b1, 1'b1, 1'b1, 1'b0, 1'b1, 1'b1};
-            default : Q = 0;
+            0: Q = {1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b1};
+            1: Q = {1'b1, 1'b0, 1'b0, 1'b1, 1'b1, 1'b1, 1'b1};
+            2: Q = {1'b0, 1'b0, 1'b1, 1'b0, 1'b0, 1'b1, 1'b0};
+            3: Q = {1'b0, 1'b0, 1'b0, 1'b0, 1'b1, 1'b1, 1'b0};
+            4: Q = {1'b1, 1'b0, 1'b0, 1'b1, 1'b1, 1'b0, 1'b0};
+            5: Q = {1'b0, 1'b1, 1'b0, 1'b0, 1'b1, 1'b0, 1'b0};
+            6: Q = {1'b0, 1'b1, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0};
+            7: Q = {1'b0, 1'b0, 1'b0, 1'b1, 1'b1, 1'b1, 1'b1};
+            8: Q = {1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0};
+            9: Q = {1'b0, 1'b0, 1'b0, 1'b0, 1'b1, 1'b0, 1'b0};
+            default : Q = 1;
         endcase
     end
 endmodule
@@ -51,7 +51,7 @@ module STATIC_SHOW (
     assign enable = 0;
     
     BCD_dec BCDdec(D, BCDcode);
-    assign LED_digit = ~BCDcode;
+    assign LED_digit = BCDcode;
 
 endmodule //Comb_circuit
 

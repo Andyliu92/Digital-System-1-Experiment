@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/24/2021 09:11:27 AM
+// Create Date: 11/24/2021 09:49:04 AM
 // Design Name: 
-// Module Name: module1
+// Module Name: ten
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,9 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module module1(
-    input BTN,
-    output out1
+module ten(
+    input clock,
+    output ten
     );
-    assign out1 = BTN;
+    reg [3:0]Q;
+    always @(posedge clock) begin
+        if (Q <= 8) begin
+            Q = Q + 1;
+        end
+        else
+            Q = 0;
+    end
+    assign ten = Q[3];
 endmodule

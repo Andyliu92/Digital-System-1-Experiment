@@ -1,13 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Nov 24 11:06:54 2021
+| Date         : Wed Dec  1 10:41:01 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_drc -file test_drc_opted.rpt -pb test_drc_opted.pb -rpx test_drc_opted.rpx
 | Design       : test
 | Device       : xc7a35tcpg236-1
 | Speed File   : -1
-| Design State : Fully Placed
+| Design State : Synthesized
 ---------------------------------------------------------------------------------------------------
 
 Report DRC
