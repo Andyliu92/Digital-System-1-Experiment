@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Nov 26 08:18:13 2021
+| Date         : Wed Dec  1 09:00:29 2021
 | Host         : Andy-surface7 running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file main_clock_utilization_routed.rpt
 | Design       : main
@@ -73,9 +73,9 @@ Table of Contents
 | 0        | FDRE/Q          | None       | SLICE_X62Y47/B5FF | X1Y0         |           4 |               2 |              |       | f1/div1/Q_reg[3]/Q | f1/div1/Q[3] - Static -
 | 1        | FDRE/Q          | None       | SLICE_X62Y48/B5FF | X1Y0         |           4 |               2 |              |       | f1/div2/Q_reg[3]/Q | f1/div2/Q[3] - Static -
 | 2        | FDRE/Q          | None       | SLICE_X62Y49/B5FF | X1Y0         |           4 |               2 |              |       | f1/div3/Q_reg[3]/Q | f1/div3/Q[3] - Static -
-| 3        | FDRE/Q          | None       | SLICE_X63Y48/B5FF | X1Y0         |           4 |               2 |              |       | f1/div4/Q_reg[3]/Q | f1/div4/Q[3] - Static -
-| 4        | FDRE/Q          | None       | SLICE_X64Y47/B5FF | X1Y0         |           4 |               3 |              |       | f1/div5/Q_reg[3]/Q | f1/div5/Q[3] - Static -
-| 5        | FDRE/Q          | None       | SLICE_X64Y48/B5FF | X1Y0         |           4 |               2 |              |       | f1/div6/Q_reg[3]/Q | f1/div6/Q[3] - Static -
+| 3        | FDRE/Q          | None       | SLICE_X63Y49/B5FF | X1Y0         |           4 |               2 |              |       | f1/div4/Q_reg[3]/Q | f1/div4/Q[3] - Static -
+| 4        | FDRE/Q          | None       | SLICE_X64Y48/B5FF | X1Y0         |           4 |               3 |              |       | f1/div5/Q_reg[3]/Q | f1/div5/Q[3] - Static -
+| 5        | FDRE/Q          | None       | SLICE_X65Y48/B5FF | X1Y0         |           4 |               2 |              |       | f1/div6/Q_reg[3]/Q | f1/div6/Q[3] - Static -
 | 6        | FDRE/Q          | None       | SLICE_X64Y49/B5FF | X1Y0         |           4 |               2 |              |       | f1/div7/Q_reg[3]/Q | f1/div7/Q[3] - Static -
 +----------+-----------------+------------+-------------------+--------------+-------------+-----------------+--------------+-------+--------------------+--------------||
 * Local Clocks in this context represents only clocks driven by non-global buffers
@@ -92,7 +92,7 @@ Table of Contents
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | X0Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    4 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   32 |  1500 |   18 |   450 |    0 |    40 |    0 |    20 |    0 |    20 |
+| X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   32 |  1500 |   17 |   450 |    0 |    40 |    0 |    20 |    0 |    20 |
 | X0Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
 | X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  1500 |    0 |   450 |    0 |    40 |    0 |    20 |    0 |    20 |
 | X0Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  1800 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |

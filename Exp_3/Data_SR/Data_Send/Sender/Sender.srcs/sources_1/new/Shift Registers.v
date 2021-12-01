@@ -31,11 +31,11 @@ module SR_8P(
     always @(posedge clk) begin
         if (load) begin
             ShiftData <= DataIn;
-            Q <= 0;
+            Q <= ShiftData[7];
         end
         else begin
-            Q <= ShiftData[7];
             ShiftData <= {ShiftData[6:0],1'b0};
+            Q <= ShiftData[7];
         end
     end
 endmodule

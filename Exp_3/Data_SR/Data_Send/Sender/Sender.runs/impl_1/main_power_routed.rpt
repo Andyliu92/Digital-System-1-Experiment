@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Fri Nov 26 08:18:13 2021
+| Date             : Wed Dec  1 09:00:29 2021
 | Host             : Andy-surface7 running 64-bit major release  (build 9200)
 | Command          : report_power -file main_power_routed.rpt -pb main_power_summary_routed.pb -rpx main_power_routed.rpx
 | Design           : main
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 33.250 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 36.221 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 32.764                           |
+| Dynamic (W)              | 35.735                           |
 | Device Static (W)        | 0.486                            |
 | Effective TJA (C/W)      | 5.0                              |
 | Max Ambient (C)          | 0.0                              |
@@ -52,15 +52,15 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.413 |      142 |       --- |             --- |
-|   LUT as Logic |     0.369 |       37 |     20800 |            0.18 |
-|   Register     |     0.038 |       64 |     41600 |            0.15 |
+| Slice Logic    |     0.418 |      141 |       --- |             --- |
+|   LUT as Logic |     0.373 |       36 |     20800 |            0.17 |
+|   Register     |     0.040 |       64 |     41600 |            0.15 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |       16 |       --- |             --- |
-| Signals        |     0.582 |       89 |       --- |             --- |
-| I/O            |    31.769 |       32 |       106 |           30.19 |
+| Signals        |     0.613 |       88 |       --- |             --- |
+| I/O            |    34.704 |       32 |       106 |           30.19 |
 | Static Power   |     0.486 |          |           |                 |
-| Total          |    33.250 |          |           |                 |
+| Total          |    36.221 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,9 +70,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     1.356 |       1.015 |      0.341 |
-| Vccaux    |       1.800 |     1.217 |       1.163 |      0.053 |
-| Vcco33    |       3.300 |     8.987 |       8.986 |      0.001 |
+| Vccint    |       1.000 |     1.392 |       1.052 |      0.341 |
+| Vccaux    |       1.800 |     1.324 |       1.271 |      0.053 |
+| Vcco33    |       3.300 |     9.818 |       9.817 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -137,21 +137,21 @@ Table of Contents
 +-------------+-----------+
 | Name        | Power (W) |
 +-------------+-----------+
-| main        |    32.764 |
-|   CTN10     |     0.070 |
-|   D4_1      |     0.142 |
-|   SR1       |     0.077 |
-|   SR2       |     0.049 |
-|   f1        |     0.512 |
-|     div1    |     0.046 |
-|     div2    |     0.044 |
+| main        |    35.735 |
+|   CTN10     |     0.064 |
+|   D4_1      |     0.135 |
+|   SR1       |     0.082 |
+|   SR2       |     0.075 |
+|   f1        |     0.517 |
+|     div1    |     0.044 |
+|     div2    |     0.046 |
 |     div3    |     0.043 |
-|     div4    |     0.044 |
+|     div4    |     0.048 |
 |     div5    |     0.117 |
-|     div6    |     0.043 |
+|     div6    |     0.044 |
 |     div7    |     0.041 |
-|     div8    |     0.040 |
-|   sta_show1 |     0.121 |
+|     div8    |     0.041 |
+|   sta_show1 |     0.134 |
 +-------------+-----------+
 
 
