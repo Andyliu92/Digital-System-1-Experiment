@@ -3,4 +3,5 @@
 \contentsline {section}{\numberline {3}实验原理}{2}{section.3}%
 \contentsline {section}{\numberline {4}实验过程}{2}{section.4}%
 \contentsline {subsection}{\numberline {4.1}移位寄存器单源周期触发测试}{2}{subsection.4.1}%
-\contentsline {section}{\numberline {5}实验总结}{3}{section.5}%
+\contentsline {subsubsection}{\numberline {4.1.1}实验结果}{3}{subsubsection.4.1.1}%
+\contentsline {section}{\numberline {5}实验总结}{5}{section.5}%

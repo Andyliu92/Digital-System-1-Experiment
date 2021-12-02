@@ -126,14 +126,37 @@
 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.8\textwidth]{pics/1.1.jpg}
+        \includegraphics[width=0.8\textwidth]{pics/1S-V2/circuit.jpg}
     \end{center}
     \caption{移位寄存器单源周期触发测试电路}
     \label{single source citcuit}
 \end{figure}
 
 \subsubsection{实验结果}
-使用示波器测量
+使用示波器测量引脚JB0与JB2的波形图\ref{1S-V2 osci}所示：
+\begin{figure}[H]
+    \centering
+    \subfigure[SW1]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/1.jpg}}
+    \subfigure[SW2]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/2.jpg}}
+    \subfigure[SW3]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/3.jpg}}
+    \subfigure[SW4]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/4.jpg}}
+    \subfigure[SW2、SW6]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/26.jpg}}
+    \subfigure[SW0、SW2、SW6]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/026.jpg}}
+    \subfigure[SW7、SW8]{
+    \includegraphics[width=0.45\textwidth]{pics/1S-V2/78.jpg}}
+    \caption{移位寄存器单源周期触发测试-输出波形}
+    \label{1S-V2 osci}
+\end{figure}
+可以看到在图（a）~（d）中，随着开关位置的变化，移位寄存器最高位的输出波形（通道2，绿色）随之相较移位寄存器置数信号位置依次向后移动，反映了移位寄存器数据移位的功能特点。在多输入时，可以看到移位寄存器将并行输入转换成为了串行输出。图（g）中的输入数据为我的学号。
+
+
+
 
 \section{实验总结}
 \begin{enumerate}

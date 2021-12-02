@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  29 NOV 2021 18:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  1 DEC 2021 23:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,8 +844,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ]
-File: assets/1.1.jpg Graphic file (type bmp)
-<assets/1.1.jpg>
+File: pics/1S-V2/circuit.jpg Graphic file (type bmp)
+<pics/1S-V2/circuit.jpg>
 
 Package fontspec Info: Could not resolve font "STXingkai/BI" (it probably
 (fontspec)             doesn't exist).
@@ -876,21 +876,32 @@ Make it at least 18.06747pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] [3] (./exp3 complete.aux)
+[2]
+File: pics/1S-V2/1.jpg Graphic file (type bmp)
+<pics/1S-V2/1.jpg>
+File: pics/1S-V2/2.jpg Graphic file (type bmp)
+<pics/1S-V2/2.jpg>
+File: pics/1S-V2/3.jpg Graphic file (type bmp)
+<pics/1S-V2/3.jpg>
+File: pics/1S-V2/4.jpg Graphic file (type bmp)
+<pics/1S-V2/4.jpg>
+File: pics/1S-V2/26.jpg Graphic file (type bmp)
+<pics/1S-V2/26.jpg>
+File: pics/1S-V2/026.jpg Graphic file (type bmp)
+<pics/1S-V2/026.jpg>
+File: pics/1S-V2/78.jpg Graphic file (type bmp)
+<pics/1S-V2/78.jpg>
+ [3] [4] [5] (./exp3 complete.aux)
 Package rerunfilecheck Info: File `"exp3 complete".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 21788 strings out of 477298
- 458241 string characters out of 5829873
- 805402 words of memory out of 5000000
- 41064 multiletter control sequences out of 15000+600000
- 411642 words of font info for 104 fonts, out of 8000000 for 9000
+ 21880 strings out of 477298
+ 462038 string characters out of 5829873
+ 805557 words of memory out of 5000000
+ 41148 multiletter control sequences out of 15000+600000
+ 411650 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,11n,100p,897b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,12n,100p,897b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp3 complete.pdf (3 pages).
+Output written on exp3 complete.pdf (5 pages).
