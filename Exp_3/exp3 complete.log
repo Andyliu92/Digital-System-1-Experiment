@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  1 DEC 2021 23:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  6 DEC 2021 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -681,96 +681,124 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box110
 \@float@everytoks=\toks27
 \@floatcapt=\box111
+) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count348
+\lst@gtempboxa=\box112
+\lst@token=\toks28
+\lst@length=\count349
+\lst@currlwidth=\dimen299
+\lst@column=\count350
+\lst@pos=\count351
+\lst@lostspace=\dimen300
+\lst@width=\dimen301
+\lst@newlines=\count352
+\lst@lineno=\count353
+\lst@maxwidth=\dimen302
+ (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count354
+\lst@skipnumbers=\count355
+\lst@framebox=\box113
+) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/Program Files/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2020/10/19 v3.8.6 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count356
+\l__xeCJK_listings_flag_int=\count357
+) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/trace.sty
+Package: trace 2018/10/13 v1.1e trace LaTeX code
 ) (./exp3 complete.aux)
 \openout1 = `"exp3 complete.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 73.
+LaTeX Info: Redefining \selectfont on input line 114.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 73.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 73.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 73.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 73.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 73.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 73.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 73.
-LaTeX Font Info:    Redeclaring math accent \check on input line 73.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 73.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 73.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 73.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 73.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 114.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 114.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 114.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 114.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 114.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 114.
+LaTeX Font Info:    Redeclaring math accent \check on input line 114.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 114.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 114.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 114.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 73.
+(Font)              `operators' in the math version `normal' on input line 114.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 73.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 114.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 73.
+(Font)              `operators' in the math version `bold' on input line 114.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 73.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 114.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 73.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 73.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 73.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 73.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 73.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 114.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 73.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 73.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 73.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 114.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 73.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 114.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 73.
+Package chemgreek Info: Activating mapping `fontspec' on line 114.
 
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 114.
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -778,11 +806,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Program Files/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count348
+\c@section@level=\count358
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
  (./exp3 complete.out) (./exp3 complete.out)
 \@outlinefile=\write3
 \openout3 = `"exp3 complete.out"'.
@@ -830,22 +858,20 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+\c@lstlisting=\count359
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
 (c:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./exp3 complete.toc)
+) (./exp3 complete.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `"exp3 complete.toc"'.
 
- [1
-
-]
-File: pics/1S-V2/circuit.jpg Graphic file (type bmp)
-<pics/1S-V2/circuit.jpg>
 
 Package fontspec Info: Could not resolve font "STXingkai/BI" (it probably
 (fontspec)             doesn't exist).
@@ -877,6 +903,8 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
+File: pics/1S-V2/circuit.jpg Graphic file (type bmp)
+<pics/1S-V2/circuit.jpg>
 File: pics/1S-V2/1.jpg Graphic file (type bmp)
 <pics/1S-V2/1.jpg>
 File: pics/1S-V2/2.jpg Graphic file (type bmp)
@@ -891,17 +919,174 @@ File: pics/1S-V2/026.jpg Graphic file (type bmp)
 <pics/1S-V2/026.jpg>
 File: pics/1S-V2/78.jpg Graphic file (type bmp)
 <pics/1S-V2/78.jpg>
- [3] [4] [5] (./exp3 complete.aux)
+ [3] [4]
+File: pics/S-V2/circuit.png Graphic file (type bmp)
+<pics/S-V2/circuit.png>
+File: pics/S-V2/circuit.png Graphic file (type bmp)
+<pics/S-V2/circuit.png>
+ [5]
+File: pics/S-V2/MODIFY FREQ DIV.png Graphic file (type bmp)
+<pics/S-V2/MODIFY FREQ DIV.png>
+File: pics/S-V2/j0k00.jpg Graphic file (type bmp)
+<pics/S-V2/j0k00.jpg>
+File: pics/S-V2/j0k01.jpg Graphic file (type bmp)
+<pics/S-V2/j0k01.jpg>
+File: pics/S-V2/j0k1.jpg Graphic file (type bmp)
+<pics/S-V2/j0k1.jpg>
+File: pics/S-V2/j1k0.jpg Graphic file (type bmp)
+<pics/S-V2/j1k0.jpg>
+File: pics/S-V2/j1k1.jpg Graphic file (type bmp)
+<pics/S-V2/j1k1.jpg>
+ [6] [7]
+File: pics/DataSR/sender.jpg Graphic file (type bmp)
+<pics/DataSR/sender.jpg>
+File: pics/DataSR/receiver.jpg Graphic file (type bmp)
+<pics/DataSR/receiver.jpg>
+ (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+) (c:/Program Files/texlive/2020/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ [8] [9] [10] [11] [12]
+Overfull \hbox (31.63023pt too wide) in paragraph at lines 490--492
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.99254pt too wide) in paragraph at lines 509--511
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]
+File: pics/DataSR/receiver problem.png Graphic file (type bmp)
+<pics/DataSR/receiver problem.png>
+ [14] [15] [16] [17] [18] [19]
+Overfull \hbox (80.41283pt too wide) in paragraph at lines 772--773
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (26.20995pt too wide) in paragraph at lines 791--795
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36937pt too wide) in paragraph at lines 796--797
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[20]
+File: pics/DataSR/sender schematic.pdf Graphic file (type pdf)
+<use pics/DataSR/sender schematic.pdf>
+File: pics/DataSR/receiver schematic.pdf Graphic file (type pdf)
+<use pics/DataSR/receiver schematic.pdf>
+ [21]
+File: pics/DataSR/1.jpg Graphic file (type bmp)
+<pics/DataSR/1.jpg>
+File: pics/DataSR/2.jpg Graphic file (type bmp)
+<pics/DataSR/2.jpg>
+ [22]
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 1>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 1>
+ [23]
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 1>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 1>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 1>
+ [24]
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 2>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 2>
+File: Data_SR/dataSR preview.pdf Graphic file (type pdf)
+<use Data_SR/dataSR preview.pdf, page 2>
+ [25]
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 1>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 1>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 1>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 1>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 1>
+ [26]
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 2>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 2>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 2>
+ [27]
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 3>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 3>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 3>
+ [28]
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 4>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 4>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 4>
+ [29]
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 5>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 5>
+File: assets/exp_data.pdf Graphic file (type pdf)
+<use assets/exp_data.pdf, page 5>
+ [30] (./exp3 complete.aux)
 Package rerunfilecheck Info: File `"exp3 complete".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 21880 strings out of 477298
- 462038 string characters out of 5829873
- 805557 words of memory out of 5000000
- 41148 multiletter control sequences out of 15000+600000
- 411650 words of font info for 105 fonts, out of 8000000 for 9000
+ 23722 strings out of 477298
+ 496150 string characters out of 5829873
+ 1081889 words of memory out of 5000000
+ 42929 multiletter control sequences out of 15000+600000
+ 411714 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,12n,100p,897b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,17n,100p,897b,2216s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp3 complete.pdf (5 pages).
+Output written on exp3 complete.pdf (30 pages).

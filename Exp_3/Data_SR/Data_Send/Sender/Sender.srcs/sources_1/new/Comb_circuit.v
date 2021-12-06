@@ -54,5 +54,4 @@ module STATIC_SHOW (
     BCD_dec BCDdec(D, BCDcode);
     assign LED_digit = ~BCDcode;
 
-endmodule //Comb_circuit
-
+endmodule
