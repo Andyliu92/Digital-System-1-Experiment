@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  13 DEC 2021 14:43
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  13 DEC 2021 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,15 +866,12 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (c:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./exp4 complete.toc)
+) (./exp4 complete.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `"exp4 complete.toc"'.
 
- [1
-
-]
-File: assets//design/10 circuit.png Graphic file (type bmp)
-<assets//design/10 circuit.png>
 
 Package fontspec Info: Could not resolve font "STXingkai/BI" (it probably
 (fontspec)             doesn't exist).
@@ -906,8 +903,11 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
+File: assets//design/10 circuit.png Graphic file (type bmp)
+<assets//design/10 circuit.png>
 File: assets//10/circuit.jpg Graphic file (type bmp)
 <assets//10/circuit.jpg>
+ [3]
 File: assets//10/QA.jpg Graphic file (type bmp)
 <assets//10/QA.jpg>
 File: assets//10/QB.jpg Graphic file (type bmp)
@@ -916,17 +916,117 @@ File: assets//10/QC.jpg Graphic file (type bmp)
 <assets//10/QC.jpg>
 File: assets//10/QD.jpg Graphic file (type bmp)
 <assets//10/QD.jpg>
- [3] [4] (./exp4 complete.aux)
+ [4]
+File: assets//design/6-0 circuit.png Graphic file (type bmp)
+<assets//design/6-0 circuit.png>
+File: assets//6-0/circuit.jpg Graphic file (type bmp)
+<assets//6-0/circuit.jpg>
+ [5]
+File: assets//6-0/QA.jpg Graphic file (type bmp)
+<assets//6-0/QA.jpg>
+File: assets//6-0/QB.jpg Graphic file (type bmp)
+<assets//6-0/QB.jpg>
+File: assets//6-0/QC.jpg Graphic file (type bmp)
+<assets//6-0/QC.jpg>
+File: assets//6-0/QD.jpg Graphic file (type bmp)
+<assets//6-0/QD.jpg>
+ [6]
+File: assets//design/6-9 circuit.png Graphic file (type bmp)
+<assets//design/6-9 circuit.png>
+File: assets//6-9/circuit.jpg Graphic file (type bmp)
+<assets//6-9/circuit.jpg>
+ [7]
+File: assets//6-9/QA.jpg Graphic file (type bmp)
+<assets//6-9/QA.jpg>
+File: assets//6-9/QB.jpg Graphic file (type bmp)
+<assets//6-9/QB.jpg>
+File: assets//6-9/QC.jpg Graphic file (type bmp)
+<assets//6-9/QC.jpg>
+File: assets//6-9/QD.jpg Graphic file (type bmp)
+<assets//6-9/QD.jpg>
+File: assets//design/100 circuit.png Graphic file (type bmp)
+<assets//design/100 circuit.png>
+ [8]
+File: assets//design/24 circuit.png Graphic file (type bmp)
+<assets//design/24 circuit.png>
+ [9]
+File: assets//24.png Graphic file (type bmp)
+<assets//24.png>
+ [10]
+File: assets//design/38 circuit.png Graphic file (type bmp)
+<assets//design/38 circuit.png>
+ [11]
+File: assets//38.png Graphic file (type bmp)
+<assets//38.png>
+ [12] [13]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 1>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 1>
+ [14]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 1>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 1>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 1>
+ [15]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 2>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 2>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 2>
+ [16]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 3>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 3>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 3>
+ [17]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 4>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 4>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 4>
+ [18]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 5>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 5>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 5>
+ [19]
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 6>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 6>
+File: assets/data.pdf Graphic file (type pdf)
+<use assets/data.pdf, page 6>
+ [20]
+File: assets//sign.jpg Graphic file (type bmp)
+<assets//sign.jpg>
+ [21] (./exp4 complete.aux)
 Package rerunfilecheck Info: File `"exp4 complete".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 23090 strings out of 477298
- 479653 string characters out of 5829873
- 828652 words of memory out of 5000000
- 42339 multiletter control sequences out of 15000+600000
+ 23313 strings out of 477298
+ 488243 string characters out of 5829873
+ 832050 words of memory out of 5000000
+ 42544 multiletter control sequences out of 15000+600000
  411642 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,11n,100p,897b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,17n,100p,897b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp4 complete.pdf (4 pages).
+Output written on exp4 complete.pdf (21 pages).
