@@ -289,7 +289,7 @@
     \label{multiosci exp cir}
 \end{figure}
 
-\par 使用示波器观察引脚波形，其中通道1接\(V_{out}\)，通道2接信号源信号。示波器波形如图\ref{multiosci vout osci}所示。
+\par 使用示波器观察引脚波形，其中通道1接\(V_{out}\)，通道2接\(V_{c}\)。示波器波形如图\ref{multiosci vout osci}所示。
 
 \begin{figure}[H]
     \begin{center}
@@ -317,7 +317,7 @@
 \end{table}
 
 
-\par 使用示波器观察引脚波形，其中通道1接\(V_c\)，通道2接信号源信号。示波器波形如图\ref{multiosci vc osci}所示。
+\par 使用示波器观察引脚波形，其中通道1接\(V_c\)，通道2接\(V_{out}\)。示波器波形如图\ref{multiosci vc osci}所示。
 
 \begin{figure}[H]
     \begin{center}
@@ -343,15 +343,55 @@
     \end{center}
 \end{table}
 
+\subsection{抢答电路搭建}
+
+\subsubsection{原理电路}
+设计出来的原理电路如图\ref{responder sim circuit}所示，简要说明原理如下：
+\begin{itemize}
+    \item 当主持人的按钮被按下时，触发555单稳态触发器产生一段时间的高电平，高电平时间内后续电路被使能，可以进行抢答操作。当555输出返回低电平时，后级电路置零端有效，无法进行抢答操作。
+    \item 当后级电路被使能时，即抢答开始时，假设S1最先被按下，则Q1被置1，LED灯亮起，表示抢答成功，\~Q1被置零，与其余选手D触发器CLK信号与门相连，对其余选手的输入端进行了封锁，使其无法继续抢答。
+    \item 一段时间后，555亚稳态结束，将所有后续电路置零，电路恢复初始状态。
+\end{itemize}
+
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{responder/sim circuit.png}
+    \end{center}
+    \caption{抢答电路：原理电路}
+    \label{responder sim circuit}
+\end{figure}
+
+\subsubsection{实验电路}
+\par 依据原理电路，搭建实验电路如图\ref{responder exp circuit}所示。电路工作正常，实现了预定功能，验证视频“抢答电路.mp4”已附在邮件中。
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{responder/circuit.jpg}
+    \end{center}
+    \caption{抢答电路：实验电路}
+    \label{responder exp circuit}
+\end{figure}
 
 
 
 
 \section{实验总结}
 
-成功使用74LS90、74LS47以及数码管成功实现了十进制计数器、置零法以及置九法实现的六进制计数器、24进制计数器、38进制计数器。熟悉了使用硬件构建数字电路的操作，
+\begin{itemize}
+    \item 成功使用555定时器搭建了单稳态计时器、多谐振荡器。
+    \item 成功搭建了抢答电路。
+\end{itemize}
 
 \section*{原始数据}
+
+\includepdf[pages=1-3]{Exp data.pdf}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{responder_sign.jpg}
+    \end{center}
+\end{figure}
 
 
 \end{document}

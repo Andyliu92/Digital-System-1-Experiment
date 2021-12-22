@@ -8,4 +8,7 @@
 \contentsline {subsection}{\numberline {4.2}555定时器搭建多谐振荡器}{6}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}原理电路}{6}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}实验验证}{8}{subsubsection.4.2.2}%
-\contentsline {section}{\numberline {5}实验总结}{9}{section.5}%
+\contentsline {subsection}{\numberline {4.3}抢答电路搭建}{9}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}原理电路}{9}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}实验电路}{10}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}实验总结}{11}{section.5}%

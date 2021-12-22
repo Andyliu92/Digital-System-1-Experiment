@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  22 DEC 2021 13:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.30)  22 DEC 2021 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -929,17 +929,55 @@ File: assets//555/multiosci/vout.jpg Graphic file (type bmp)
 <assets//555/multiosci/vout.jpg>
 File: assets//555/multiosci/vc.jpg Graphic file (type bmp)
 <assets//555/multiosci/vc.jpg>
- [8] [9] (./exp5 complete.aux)
+ [8] [9]
+File: assets//responder/sim circuit.png Graphic file (type bmp)
+<assets//responder/sim circuit.png>
+File: assets//responder/circuit.jpg Graphic file (type bmp)
+<assets//responder/circuit.jpg>
+ [10]
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 1>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 1>
+ [11]
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 1>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 1>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 1>
+ [12]
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 2>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 2>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 2>
+ [13]
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 3>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 3>
+File: assets/Exp data.pdf Graphic file (type pdf)
+<use assets/Exp data.pdf, page 3>
+ [14]
+File: assets//responder_sign.jpg Graphic file (type bmp)
+<assets//responder_sign.jpg>
+ [15] (./exp5 complete.aux)
 Package rerunfilecheck Info: File `"exp5 complete".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 23141 strings out of 477298
- 482474 string characters out of 5829873
- 831550 words of memory out of 5000000
- 42391 multiletter control sequences out of 15000+600000
+ 23202 strings out of 477298
+ 484961 string characters out of 5829873
+ 832964 words of memory out of 5000000
+ 42443 multiletter control sequences out of 15000+600000
  411642 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,14n,100p,897b,1009s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,17n,100p,897b,1009s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp5 complete.pdf (9 pages).
+Output written on exp5 complete.pdf (15 pages).
