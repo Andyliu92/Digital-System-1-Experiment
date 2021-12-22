@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}实验目的}{1}{section.1}%
+\contentsline {section}{\numberline {2}实验仪器与主要器材}{2}{section.2}%
+\contentsline {section}{\numberline {3}实验原理}{2}{section.3}%
+\contentsline {section}{\numberline {4}实验过程}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}555定时器搭建单稳态触发器}{3}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}原理电路}{3}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}实验验证}{4}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}555定时器搭建多谐振荡器}{6}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}原理电路}{6}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}实验验证}{8}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}实验总结}{9}{section.5}%
